@@ -14,9 +14,11 @@ Ask the user for a range (e.g., 1 to 100) instead of hardcoding it.
 # Algorithm #2
 In C++, implement the RANSAC algorithm to robustly estimate a line from noisy 2d points.
 Tools: can use STL, boost, and C++ using a modern C++ compiler (up to C++ 11).
+
 Input :
 * A set of 2d points with unknown uncertainties, and any required algorithm parameters.
 A file containing a set of test points is provided inside the supporting files folder
+
 Outputs :
 * The line parameterized as two points, and which input points are inliers.
 Consider how the code might be organised to be easy to test, for others to read, and to improve
