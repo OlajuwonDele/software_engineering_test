@@ -128,7 +128,7 @@ public:
 
     void primeTime() {
 
-        if (head->data.rank == 0 || head->data.rank == 1) {
+        if (head->data.rank == 0 || head->data.rank == 1 || head->data.rank == 11 || head->data.rank == 13) {
             std::cout << "The card is not a prime number card: ";
             head->data.display();
             return;
