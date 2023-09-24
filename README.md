@@ -29,7 +29,7 @@ Comments can be useful to explain design/implementation choices; there will also
 to explain these verbally.
 Any reasonable extensions to the basic RANSAC algorithm would be welcome but please note in
 comments where these are made, and provide any relevant citations.
-We have provided a simple command-line harness (inside the supporting files folder), including codeto read and write the output.
+We have provided a simple command-line harness (inside the supporting files folder), including code to read and write the output.
 
 Please feel free to remove the boost command line parser if you do not have access to boost.
 
