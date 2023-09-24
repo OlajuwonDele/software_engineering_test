@@ -1,24 +1,24 @@
 # Algorithm #1
 Write a Python 3 program that does the following:
 Ask the user for a range (e.g., 1 to 100) instead of hardcoding it.
-● For multiples of three, print "Ross."
-● For multiples of five, print "Robotics."
-● For multiples of both three and five, print "Ross Robotics."
-● For multiples of seven, print "Lucky."
-● For multiples of both three and seven, print "Ross Lucky."
-● For multiples of both five and seven, print "Robotics Lucky."
-● For multiples of three, five, and seven, print "Jackpot!"
-● For prime numbers, print "Prime."
-● For all other numbers, print the number itself.
+* For multiples of three, print "Ross."
+* For multiples of five, print "Robotics."
+* For multiples of both three and five, print "Ross Robotics."
+* For multiples of seven, print "Lucky."
+* For multiples of both three and seven, print "Ross Lucky."
+* For multiples of both five and seven, print "Robotics Lucky."
+* For multiples of three, five, and seven, print "Jackpot!"
+* For prime numbers, print "Prime."
+* For all other numbers, print the number itself.
 
 # Algorithm #2
 In C++, implement the RANSAC algorithm to robustly estimate a line from noisy 2d points.
 Tools: can use STL, boost, and C++ using a modern C++ compiler (up to C++ 11).
 Input :
-● A set of 2d points with unknown uncertainties, and any required algorithm parameters.
+* A set of 2d points with unknown uncertainties, and any required algorithm parameters.
 A file containing a set of test points is provided inside the supporting files folder
 Outputs :
-● The line parameterized as two points, and which input points are inliers.
+* The line parameterized as two points, and which input points are inliers.
 Consider how the code might be organised to be easy to test, for others to read, and to improve
 later. Emphasis will be placed on a correct and well-engineered solution.
 Use of the internet is encouraged to become familiar with details of the algorithm and its variants.
@@ -42,13 +42,13 @@ software_engineering_test_algorithm_2_supporting_file.
 Design a C++ class that simulates a deck of playing cards. Your class should not only shuffle and deal
 cards but also have some extra bells and whistles.
 Core Features:
-● Shuffle 'Em Up: Implement a method to shuffle the deck.
-● Single Draw: Create a function to deal a single card from the deck.
-● Multi-Draw: Why stop at one? Add a function to deal multiple cards at once.
-● Card Count: Include a method to check how many cards are left in the deck.
+* Shuffle 'Em Up: Implement a method to shuffle the deck.
+* Single Draw: Create a function to deal a single card from the deck.
+* Multi-Draw: Why stop at one? Add a function to deal multiple cards at once.
+* Card Count: Include a method to check how many cards are left in the deck.
 Bonus Features:
-● Joker's Wild: Add a method to insert a Joker into the deck.
-● Prime Time: (Optional) Add a special function that identifies if a card is a prime number (only
+* Joker's Wild: Add a method to insert a Joker into the deck.
+* Prime Time: (Optional) Add a special function that identifies if a card is a prime number (only
 for numbered cards, of course).
 Demonstrate the awesomeness of your card deck class by writing a small program that deals out the
 entire deck, one card at a time.
