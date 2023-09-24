@@ -51,6 +51,7 @@ Bonus Features:
 * Joker's Wild: Add a method to insert a Joker into the deck.
 * Prime Time: (Optional) Add a special function that identifies if a card is a prime number (only
 for numbered cards, of course).
+
 Demonstrate the awesomeness of your card deck class by writing a small program that deals out the
 entire deck, one card at a time.
 Don't forget to write a unit test to make sure your deck is up to snuff. Validate all the core and bonus
